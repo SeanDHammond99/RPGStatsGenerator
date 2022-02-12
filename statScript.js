@@ -1,3 +1,3 @@
 function myFunction() {
-    document.getElementById("health").innerHTML = "Health: 10";
+    document.getElementById("health").innerHTML = "Health: 1000";
 }
