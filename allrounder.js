@@ -8,4 +8,4 @@ function AllRounder(level, stage) {
   this.spdefence = 2;
   this.speed = 2;
 }
-export AllRounder;
+export {AllRounder};
