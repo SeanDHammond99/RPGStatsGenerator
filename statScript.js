@@ -1,4 +1,5 @@
 function myFunction() {
-    var build = document.getElementById("build");
-    document.getElementById("health").innerHTML = "Health: " + 5;
+    return "test";
 }
+
+document.getElementById("health").innerHTML = myFunction();
