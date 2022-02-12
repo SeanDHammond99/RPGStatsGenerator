@@ -1,5 +1,6 @@
 
 function myFunction() {
-    import AllRounder from 'allrounder.js'
-    document.getElementById("statblock").innerHTML="Paragraph changed.";
+    import AllRounder from 'allrounder.js';
+    var build = document.getElementById("build");
+
 }
