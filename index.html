@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Encounter Generator</h2>
+
+
+<label for="build">Encounter to generate:</label>
+<select name="build" id="build">
+    <option value="ar">All-Rounder</option>
+    <option value="fpa">Fast Physical Attacker</option>
+    <option value="bpa">Bulky Physical Attacker</option>
+    <option value="fsa">Fast Special Attacker</option>
+    <option value="fsa">Bulky Special Attacker</option>
+    <option value="t">Tank</option>
+</select>
+
+
+<label for="level">Level:</label>
+<select name="level" id="level">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+
+<br>
+
+<label for="stage">Evolution Stage:</label>
+<select name="stage" id="stage">
+    <option value="2">2 Evolutions Remaining</option>
+    <option value="1">1 Evolution Remaining</option>
+    <option value="0">Final Form</option>
+</select>
+
+<p id="health" style="margin-bottom : 0;">Health: </p>
+<p id="attack" style="margin : 0; padding-top:0;">Attack: </p>
+<p id="defence" style="margin : 0; padding-top:0;">Defence: </p>
+<p id="spattack" style="margin : 0; padding-top:0;">Special Attack: </p>
+<p id="spdefence" style="margin : 0; padding-top:0;">Special Defence: </p>
+<p id="speed" style="margin : 0; padding-top:0;">Speed : </p>
+
+<button type="button" onclick="myFunction()">Generate</button>
+
+<script type="module" src=statScript.js></script>
+
+</body>
+</html>
