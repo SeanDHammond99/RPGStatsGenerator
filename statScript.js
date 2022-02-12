@@ -1,4 +1,4 @@
-import AllRounder from 'allrounder.js'
+import AllRounder from './allrounder.js'
 
 function update() {
     var build = document.getElementById("build");
