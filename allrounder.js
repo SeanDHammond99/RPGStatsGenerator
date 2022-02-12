@@ -8,5 +8,3 @@ function AllRounder(level, stage) {
   this.spdefence = 2;
   this.speed = 2;
 }
-
-module.exports = AllRounder
