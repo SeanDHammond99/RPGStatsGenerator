@@ -5,6 +5,9 @@ function update() {
     var stage = document.getElementById("stage").value;
     var level = document.getElementById("level").value;
 
+    if (build == "ar"){
+        let stats = new AllRounder(level, stage);
+    }
 
 
 }
