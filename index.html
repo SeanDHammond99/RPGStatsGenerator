@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-<h2>Encounter Generator</h2>
+<body style="background-color:black;">
+<h2 style="color:white">Encounter Generator</h2>
 
-<h3>Random Pokemon Generator</h3>
+<h3 style="color:white">Random Pokemon Generator</h3>
 <img id = "image" width="300" height="300" src = >
 <br>
 <button id="imagebutton">Random Pokemon</button>
@@ -12,7 +13,7 @@
 
 <h3>Random Stats Generator</h3>
 
-<label for="build">Build to generate:</label>
+<label for="build" style="color:white">Build to generate:</label>
 <select name="build" id="build">
     <option value="ar">All-Rounder</option>
     <option value="fpa">Fast Physical Attacker</option>
@@ -23,7 +24,7 @@
 </select>
 
 
-<label for="level">Level:</label>
+<label for="level" style="color:white">Level:</label>
 <select name="level" id="level">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -39,7 +40,7 @@
 
 <br>
 
-<label for="stage">Additional Points:</label>
+<label for="stage" style="color:white">Additional Points:</label>
 <select name="stage" id="stage">
     <option value="0">0</option>
     <option value="1">1</option>
@@ -49,15 +50,15 @@
     <option value="5">5</option>
 </select>
 
-<p id="health" style="margin-bottom : 0;">Health: </p>
-<p id="attack" style="margin : 0; padding-top:0;">Attack: </p>
-<p id="defence" style="margin : 0; padding-top:0;">Defence: </p>
-<p id="spattack" style="margin : 0; padding-top:0;">Special Attack: </p>
-<p id="spdefence" style="margin : 0; padding-top:0;">Special Defence: </p>
-<p id="speed" style="margin : 0; padding-top:0;">Speed : </p>
+<p id="attack" style="margin : 0; padding-top:0; color:white">Attack: </p>
+<p id="defence" style="margin : 0; padding-top:0; color:white">Defence: </p>
+<p id="spattack" style="margin : 0; padding-top:0; color:white">Special Attack: </p>
+<p id="spdefence" style="margin : 0; padding-top:0; color:white">Special Defence: </p>
+<p id="speed" style="margin : 0; padding-top:0; color:white">Speed : </p>
 
 <button id="button">Generate</button>
 
 <script type="module" src=statScript.js></script>
 
+</body>
 </html>
