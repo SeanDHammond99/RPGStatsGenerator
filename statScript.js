@@ -55,7 +55,7 @@ function update() {
 function addImage(){
     var randomMon = Math.floor(Math.random() * 898) + 1;
 
-    APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
+    var APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
 
     const userAction = async () => {
       const response = await fetch(APIEndpoint);
