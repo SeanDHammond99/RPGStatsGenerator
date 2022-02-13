@@ -63,6 +63,7 @@ function addImage(){
       const myJson = await response.json();
       console.log(myJson);
     }
+    console.log(userAction);
 
 //    document.getElementById("imagebutton").innerHTML = newimage;
 }
