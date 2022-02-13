@@ -2,6 +2,11 @@ import AllRounder from './allrounder.js'
 
 function updateStats(stats){
     document.getElementById("health").innerHTML = "Health: " + stats.health;
+    document.getElementById("attack").innerHTML = "Attack: " + stats.attack;
+    document.getElementById("defence").innerHTML = "Defence: " + stats.defence;
+    document.getElementById("spattack").innerHTML = "Special Attack: " + stats.spattack;
+    document.getElementById("spdefence").innerHTML = "Special Defence: " + stats.spdefence;
+    document.getElementById("speed").innerHTML = "Speed: " + stats.speed;
 }
 
 function update() {
