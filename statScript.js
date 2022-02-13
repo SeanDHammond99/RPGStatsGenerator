@@ -1,4 +1,9 @@
 import allRounder from './AllRounder.js';
+import fastPhysicalAttacker from './FastPhysicalAttacker.js';
+import bulkyPhysicalAttacker from './BulkyPhysicalAttacker.js';
+import fastSpecialAttacker from './FastSpecialAttacker.js';
+import bulkySpecialAttacker from './BulkySpecialAttacker.js';
+import tank from './Tank.js';
 
 function updateStats(stats){
     document.getElementById("health").innerHTML = "Health: " + stats.health;
