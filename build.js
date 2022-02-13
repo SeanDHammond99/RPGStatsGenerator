@@ -119,3 +119,4 @@ class fastPhysicalAttacker extends build {
     }
 }
 export default allRounder;
+export {allRounder, fastPhysicalAttacker};

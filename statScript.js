@@ -1,4 +1,5 @@
-import './build.js';
+import allRounder from './build.js';
+import fastPhysicalAttacker from './build.js';
 
 function updateStats(stats){
     document.getElementById("health").innerHTML = "Health: " + stats.health;
