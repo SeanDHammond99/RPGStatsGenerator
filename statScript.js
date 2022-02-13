@@ -16,7 +16,7 @@ function update() {
 
     if (build == "ar"){
         console.log("build found");
-        let stats = new AllRounder(level, stage);
+        let stats = new allRounder(level, stage);
         stats.levelUp();
         updateStats(stats);
     }
