@@ -61,6 +61,7 @@ function addImage(){
       const response = await fetch(APIEndpoint);
       const myJson = await response.json();
       console.log(myJson);
+    }
 
     document.getElementById("imagebutton").innerHTML = newimage;
 }
