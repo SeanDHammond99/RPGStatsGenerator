@@ -17,8 +17,6 @@ class AllRounder {
         this.spdefenceRate = 92;
         this.speedRate = 100;
 
-        levelUp();
-
     }
 
     levelUp(){
