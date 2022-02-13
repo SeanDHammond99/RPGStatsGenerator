@@ -58,11 +58,12 @@ function addImage(){
     var APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
 
     var userAction = async () => {
-      console.log("fetching");
+      document.getElementById("imagebutton").innerHTML = "Picking Random Pokemon...";
       var response = await fetch(APIEndpoint);
       var myJson = await response.json();
       var newimage = myJson.sprites.front_default;
       document.getElementById("image").src = newimage;
+      document.getElementById("imagebutton").innerHTML = "Random Pokemon";
     }
     console.log(userAction());
 
