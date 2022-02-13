@@ -21,13 +21,9 @@ class AllRounder {
 
     }
 
-    getRandomInt(max) {
-      return Math.floor(Math.random() * max);
-    }
-
     levelUp(){
         for (let i = 0; i < level * 2; i++)
-            randomInt = this.getRandomInt(100);
+            randomInt = Math.floor(Math.random() * 100);
 
             if (randomInt < this.healthRate){
                 this.health++;
