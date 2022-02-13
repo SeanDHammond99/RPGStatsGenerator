@@ -5,11 +5,13 @@ function update() {
     var stage = document.getElementById("stage").value;
     var level = document.getElementById("level").value;
 
+    let stats = new AllRounder(level, stage);
+
     if (build == "ar"){
-        console.log("this works");
-        let stats = new AllRounder(level, stage);
+        console.log("build found");
         stats.levelUp();
     }
+
 
 
 }
