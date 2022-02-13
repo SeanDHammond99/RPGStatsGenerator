@@ -91,7 +91,7 @@ class allRounder extends build {
         this.defenceRate = 50;
         this.spattackRate = 75;
         this.spdefenceRate = 92;
-        this.speedRate = 100;}
+        this.speedRate = 100;
     }
 }
 export default allRounder;
