@@ -23,7 +23,7 @@ class fastSpecialAttacker {
     levelUp(){
         console.log("levelling up1");
         var points = this.level * 2;
-        var pointsMore = points + this.stage;
+        var pointsMore = parseInt(points) + parseInt(this.stage);
         for (let i = 0; i < pointsMore; i++){
             console.log("levelling up2");
             var randomInt = Math.floor(Math.random() * 100);
