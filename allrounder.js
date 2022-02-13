@@ -23,7 +23,7 @@ class AllRounder {
 
     levelUp(){
         for (let i = 0; i < level * 2; i++)
-            randomInt = Math.floor(Math.random() * 100);
+            var randomInt = Math.floor(Math.random() * 100);
 
             if (randomInt < this.healthRate){
                 this.health++;
