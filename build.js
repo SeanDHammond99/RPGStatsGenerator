@@ -76,6 +76,7 @@ class build {
 
 class allRounder extends build {
     constructor(level, stage){
+        super(level, stage);
         this.level = level;
         this.stage = stage;
 
