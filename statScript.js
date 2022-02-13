@@ -1,7 +1,7 @@
 import AllRounder from './allrounder.js'
 
 function updateStats(stats){
-    document.getElementById("health").innerHTML = stats.health;
+    document.getElementById("health").innerHTML = "Health: " + stats.health;
 }
 
 function update() {
