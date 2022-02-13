@@ -51,4 +51,19 @@ function update() {
         updateStats(stats);
     }
 }
+
+function addImage(){
+    var randomMon = Math.floor(Math.random() * 898) + 1;
+
+    APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
+
+    const userAction = async () => {
+      const response = await fetch(APIEndpoint);
+      const myJson = await response.json();
+      console.log(myJson);
+
+    document.getElementById("imagebutton").innerHTML = newimage;
+}
+
 document.getElementById("button").addEventListener("click", update);
+document.getElementById("imagebutton").addEventListener("click", addImage);
