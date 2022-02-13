@@ -1,5 +1,4 @@
-import allRounder from './build.js';
-import fastPhysicalAttacker from './build.js';
+import allRounder from './AllRounder.js';
 
 function updateStats(stats){
     document.getElementById("health").innerHTML = "Health: " + stats.health;
@@ -16,12 +15,12 @@ function update() {
     var level = document.getElementById("level").value;
 
     if (build == "ar"){
-        console.log("build found");
+        console.log(build);
         let stats = new allRounder(level, stage);
         stats.levelUp();
         updateStats(stats);
     } else if (build == "fpa"){
-        console.log("build found");
+        console.log(build);
         let stats = new fastPhysicalAttacker(level, stage);
         stats.levelUp();
         updateStats(stats);
