@@ -58,6 +58,7 @@ function addImage(){
     var APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
 
     const userAction = async () => {
+      console.log("fetching");
       const response = await fetch(APIEndpoint);
       const myJson = await response.json();
       console.log(myJson);
