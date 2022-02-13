@@ -57,15 +57,17 @@ function addImage(){
 
     var APIEndpoint = "https://pokeapi.co/api/v2/pokemon/" + randomMon;
 
-    const userAction = async () => {
+    var userAction = async () => {
       console.log("fetching");
-      const response = await fetch(APIEndpoint);
-      const myJson = await response.json();
-      console.log(myJson);
+      var response = await fetch(APIEndpoint);
+      var myJson = await response.json();
+      var newimage = myJson.sprites;
+      console.log(newimage);
+//      document.getElementById("imagebutton").innerHTML = newimage;
     }
     console.log(userAction());
 
-//    document.getElementById("imagebutton").innerHTML = newimage;
+
 }
 
 document.getElementById("button").addEventListener("click", update);
