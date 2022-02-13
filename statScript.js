@@ -71,4 +71,5 @@ function addImage(){
 }
 
 document.getElementById("button").addEventListener("click", update);
+addImage();
 document.getElementById("imagebutton").addEventListener("click", addImage);
