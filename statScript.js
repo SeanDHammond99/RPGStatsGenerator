@@ -8,8 +8,8 @@ function update() {
     if (build == "ar"){
         console.log(build);
         let stats = new AllRounder(level, stage);
+        stats.levelUp();
     }
-    stats.levelUp();
 
 
 }
