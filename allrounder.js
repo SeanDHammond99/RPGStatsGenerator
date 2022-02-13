@@ -22,8 +22,8 @@ class AllRounder {
     }
 
     levelUp(){
-        console.log("levelling up");
         for (let i = 0; i < level * 2; i++)
+            console.log("levelling up");
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
             if (randomInt < this.healthRate){
