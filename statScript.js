@@ -62,8 +62,7 @@ function addImage(){
       var response = await fetch(APIEndpoint);
       var myJson = await response.json();
       var newimage = myJson.sprites.front_default;
-      document.getElementById("image").innerHTML = newimage;
-      console.log(newimage);
+      document.getElementById("image").src = newimage;
     }
     console.log(userAction());
 
