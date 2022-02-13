@@ -1,3 +1,7 @@
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 class AllRounder {
     constructor(level, stage){
         this.level = level;
@@ -46,8 +50,5 @@ class AllRounder {
 
 }
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
 
 export default AllRounder;
