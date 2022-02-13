@@ -22,8 +22,8 @@ class bulkyPhysicalAttacker {
 
     levelUp(){
         console.log("levelling up1");
-        points = this.level * 2;
-        pointsMore = points + stage;
+        var points = this.level * 2;
+        var pointsMore = points + stage;
         for (let i = 0; i < pointsMore; i++){
             console.log("levelling up2");
             var randomInt = Math.floor(Math.random() * 100);
