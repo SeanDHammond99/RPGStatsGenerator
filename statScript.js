@@ -6,7 +6,7 @@ function update() {
     var level = document.getElementById("level").value;
 
     if (build == "ar"){
-        console.log(build);
+        console.log("this works");
         let stats = new AllRounder(level, stage);
         stats.levelUp();
     }
