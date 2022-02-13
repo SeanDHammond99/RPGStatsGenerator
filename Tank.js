@@ -5,18 +5,18 @@ class tank {
         this.level = level;
         this.stage = stage;
 
-        this.health = 3;
-        this.attack = 3;
-        this.defence = 2;
-        this.spattack = 3;
-        this.spdefence = 2;
-        this.speed = 2;
+        this.health = 4;
+        this.attack = 2;
+        this.defence = 3;
+        this.spattack = 2;
+        this.spdefence = 3;
+        this.speed = 1;
 
-        this.healthRate = 8;
-        this.attackRate = 33;
-        this.defenceRate = 50;
-        this.spattackRate = 75;
-        this.spdefenceRate = 92;
+        this.healthRate = 20;
+        this.attackRate = 30;
+        this.defenceRate = 55;
+        this.spattackRate = 65;
+        this.spdefenceRate = 90;
         this.speedRate = 100;
     }
 

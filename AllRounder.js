@@ -12,11 +12,11 @@ class allRounder {
         this.spdefence = 2;
         this.speed = 2;
 
-        this.healthRate = 8;
+        this.healthRate = 16;
         this.attackRate = 33;
-        this.defenceRate = 50;
-        this.spattackRate = 75;
-        this.spdefenceRate = 92;
+        this.defenceRate = 49;
+        this.spattackRate = 66;
+        this.spdefenceRate = 84;
         this.speedRate = 100;
     }
 

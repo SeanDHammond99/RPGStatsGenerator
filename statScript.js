@@ -17,7 +17,7 @@ function updateStats(stats){
 function update() {
     var build = document.getElementById("build").value;
     var stage = document.getElementById("stage").value;
-    var level = document.getElementById("level").value;
+    var level = document.getElementById("level").value - 1;
 
     if (build == "ar"){
         console.log(build);

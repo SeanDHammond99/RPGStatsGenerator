@@ -5,18 +5,18 @@ class fastPhysicalAttacker {
         this.level = level;
         this.stage = stage;
 
-        this.health = 3;
-        this.attack = 3;
+        this.health = 2;
+        this.attack = 4;
         this.defence = 2;
         this.spattack = 3;
         this.spdefence = 2;
-        this.speed = 2;
+        this.speed = 3;
 
-        this.healthRate = 8;
-        this.attackRate = 33;
-        this.defenceRate = 50;
-        this.spattackRate = 75;
-        this.spdefenceRate = 92;
+        this.healthRate = 10;
+        this.attackRate = 38;
+        this.defenceRate = 52;
+        this.spattackRate = 60;
+        this.spdefenceRate = 75;
         this.speedRate = 100;
     }
 
