@@ -23,7 +23,7 @@ class AllRounder {
 
     levelUp(){
         console.log("levelling up1");
-        for (let i = 0; i < level * 2; i++){
+        for (let i = 0; i < this.level * 2; i++){
             console.log("levelling up2");
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
