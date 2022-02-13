@@ -8,6 +8,7 @@ function update() {
     if (build == "ar"){
         let stats = new AllRounder(level, stage);
     }
+    console.log(build);
     stats.levelUp();
 
 
