@@ -1,4 +1,4 @@
-import allRounder from './build.js'
+import './build.js';
 
 function updateStats(stats){
     document.getElementById("health").innerHTML = "Health: " + stats.health;
