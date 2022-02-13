@@ -29,9 +29,26 @@ function update() {
         let stats = new fastPhysicalAttacker(level, stage);
         stats.levelUp();
         updateStats(stats);
+    } else if (build == "bpa"){
+        console.log(build);
+        let stats = new bulkyPhysicalAttacker(level, stage);
+        stats.levelUp();
+        updateStats(stats);
+    } else if (build == "fsa"){
+        console.log(build);
+        let stats = new fastSpecialAttacker(level, stage);
+        stats.levelUp();
+        updateStats(stats);
+    } else if (build == "bsa"){
+        console.log(build);
+        let stats = new bulkySpecialAttacker(level, stage);
+        stats.levelUp();
+        updateStats(stats);
+    } else if (build == "t"){
+        console.log(build);
+        let stats = new tank(level, stage);
+        stats.levelUp();
+        updateStats(stats);
     }
-
-
-
 }
 document.getElementById("button").addEventListener("click", update);
