@@ -63,6 +63,7 @@ function addImage(){
       var myJson = await response.json();
       var newimage = myJson.sprites.front_default;
       document.getElementById("image").innerHTML = newimage;
+      console.log(newimage);
     }
     console.log(userAction());
 
