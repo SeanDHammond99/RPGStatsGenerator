@@ -8,7 +8,7 @@ class fastPhysicalAttacker {
         this.health = 2;
         this.attack = 4;
         this.defence = 2;
-        this.spattack = 3;
+        this.spattack = 2;
         this.spdefence = 2;
         this.speed = 3;
 
@@ -22,7 +22,7 @@ class fastPhysicalAttacker {
 
     levelUp(){
         console.log("levelling up1");
-        for (let i = 0; i < this.level * 2; i++){
+        for (let i = 0; i < (this.level * 2) + stage; i++){
             console.log("levelling up2");
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
