@@ -63,7 +63,7 @@ function addImage(){
       console.log(myJson);
     }
 
-    document.getElementById("imagebutton").innerHTML = newimage;
+//    document.getElementById("imagebutton").innerHTML = newimage;
 }
 
 document.getElementById("button").addEventListener("click", update);
