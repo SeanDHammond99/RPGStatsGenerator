@@ -22,7 +22,9 @@ class tank {
 
     levelUp(){
         console.log("levelling up1");
-        for (let i = 0; i < (this.level * 2) + stage; i++){
+        points = this.level * 2;
+        pointsMore = points + stage;
+        for (let i = 0; i < pointsMore; i++){
             console.log("levelling up2");
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
