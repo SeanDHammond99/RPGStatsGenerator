@@ -19,8 +19,12 @@ function update() {
         let stats = new allRounder(level, stage);
         stats.levelUp();
         updateStats(stats);
+    } else if (build == "fpa"){
+        console.log("build found");
+        let stats = new fastPhysicalAttacker(level, stage);
+        stats.levelUp();
+        updateStats(stats);
     }
-
 
 
 
