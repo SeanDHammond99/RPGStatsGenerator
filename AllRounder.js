@@ -23,7 +23,7 @@ class allRounder {
     levelUp(){
         console.log("levelling up1");
         var points = this.level * 2;
-        var pointsMore = points + this.stage;
+        var pointsMore = parseInt(points) + parseInt(this.stage);
         console.log("points: "+ points);
         console.log("pointsMore: "+ pointsMore);
         for (let i = 0; i < pointsMore; i++){
