@@ -28,22 +28,46 @@ class AllRounder {
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
             if (randomInt < this.healthRate){
-                this.health++;
+                if (this.health == 8){
+                    i--;
+                } else {
+                    this.health++;
+                }
                 console.log("Health Up!")
             } else if (randomInt < this.attackRate){
-                this.attack++;
+                if (this.attack == 8){
+                    i--;
+                } else {
+                    this.attack++;
+                }
                 console.log("Attack Up!")
             } else if (randomInt < this.defenceRate){
-                this.defence++;
+                if (this.defence == 8){
+                    i--;
+                } else {
+                    this.defence++;
+                }
                 console.log("Defence Up!")
             } else if (randomInt < this.spattackRate){
-                this.spattack++;
+                if (this.spattack == 8){
+                    i--;
+                } else {
+                    this.spattack++;
+                }
                 console.log("Sp Atk Up!")
             } else if (randomInt < this.spdefenceRate){
-                 this.spdefence++;
+                if (this.spdefence == 8){
+                    i--;
+                } else {
+                    this.spdefence++;
+                }
                 console.log("Sp Def Up!")
             } else if (randomInt < this.speedRate){
-                 this.speed++;
+                if (this.speed == 8){
+                    i--;
+                } else {
+                    this.speed++;
+                }
                 console.log("Speed Up!")
             }
         }
