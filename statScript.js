@@ -61,7 +61,7 @@ function addImage(){
       document.getElementById("imagebutton").innerHTML = "Picking Random Pokemon...";
       var response = await fetch(APIEndpoint);
       var myJson = await response.json();
-      var newimage = myJson.sprites.front_default;
+      var newimage = myJson.sprites.other.official-artwork.front_default;
       document.getElementById("image").src = newimage;
       document.getElementById("imagebutton").innerHTML = "Random Pokemon";
     }
