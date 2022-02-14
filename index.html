@@ -2,25 +2,38 @@
 <html>
 <head>
 <style>
-.lucida {
+.header {
     font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+}
+.subheader {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+.text {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+.buttontext {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
 }
 </style>
 </head>
 <body style="background-color:#1e1f21;">
-<h1 style="color:white" class="lucida">Encounter Generator</h1>
+<h1 style="color:white" class="header">Encounter Generator</h1>
 
-<h3 style="color:white" class="lucida">Random Pokemon Generator</h3>
+<h3 style="color:white" class="subheader">Random Pokemon Generator</h3>
 <img id = "image" width="300" height="300" src = >
 <br>
-<button id="imagebutton" class="lucida">Random Pokemon</button>
+<button id="imagebutton" class="buttontext">Random Pokemon</button>
 
 
 
-<h3 style="color:white" class="lucida">Random Stats Generator</h3>
+<h3 style="color:white" class="subheader">Random Stats Generator</h3>
 
-<label for="build" style="color:white" class="lucida">Build to generate:</label>
-<select name="build" id="build" class="lucida">
+<label for="build" style="color:white" class="text">Build to generate:</label>
+<select name="build" id="build" class="buttontext">
     <option value="ar">All-Rounder</option>
     <option value="fpa">Fast Physical Attacker</option>
     <option value="bpa">Bulky Physical Attacker</option>
@@ -30,8 +43,8 @@
 </select>
 
 
-<label for="level" style="color:white" class="lucida">Level:</label>
-<select name="level" id="level" class="lucida">
+<label for="level" style="color:white" class="text">Level:</label>
+<select name="level" id="level" class="buttontext">
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -46,8 +59,8 @@
 
 <br>
 
-<label for="stage" style="color:white" class="lucida">Additional Points:</label>
-<select name="stage" id="stage" class="lucida">
+<label for="stage" style="color:white" class="text">Additional Points:</label>
+<select name="stage" id="stage" class="buttontext">
     <option value="0">0</option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -56,16 +69,16 @@
     <option value="5">5</option>
 </select>
 
-<p id="HP" style="margin-bottom : 0; color:white" class="lucida">HP: </p>
+<p id="HP" style="margin-bottom : 0; color:white" class="text">HP: </p>
 <br>
-<p id="health" style="margin : 0; padding-top:0; color:white" class="lucida">Health: </p>
-<p id="attack" style="margin : 0; padding-top:0; color:white" class="lucida">Attack: </p>
-<p id="defence" style="margin : 0; padding-top:0; color:white" class="lucida">Defence: </p>
-<p id="spattack" style="margin : 0; padding-top:0; color:white" class="lucida">Special Attack: </p>
-<p id="spdefence" style="margin : 0; padding-top:0; color:white" class="lucida">Special Defence: </p>
-<p id="speed" style="margin : 0; padding-top:0; color:white" class="lucida">Speed : </p>
+<p id="health" style="margin : 0; padding-top:0; color:white" class="text">Health: </p>
+<p id="attack" style="margin : 0; padding-top:0; color:white" class="text">Attack: </p>
+<p id="defence" style="margin : 0; padding-top:0; color:white" class="text">Defence: </p>
+<p id="spattack" style="margin : 0; padding-top:0; color:white" class="text">Special Attack: </p>
+<p id="spdefence" style="margin : 0; padding-top:0; color:white" class="text">Special Defence: </p>
+<p id="speed" style="margin : 0; padding-top:0; color:white" class="text">Speed: </p>
 
-<button id="button" class="lucida">Generate</button>
+<button id="button" class="buttontext">Generate</button>
 
 <script type="module" src=statScript.js></script>
 
