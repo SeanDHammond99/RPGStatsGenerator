@@ -6,7 +6,13 @@ import bulkySpecialAttacker from './BulkySpecialAttacker.js';
 import tank from './Tank.js';
 
 function updateStats(stats){
-    document.getElementById("HP").innerHTML = "HP: " + parseInt(Math.ceil(parseInt(stats.health) * 1.5))+parseInt(stats.level);
+    var HPcalc = parseInt(Math.ceil(parseInt(stats.health) * 1.5));
+    console.log(HPcalc);
+    var actualLevel = parseInt(stats.level + 1);
+    console.log(actualLevel);
+    var calculation = parseInt(HPcalc) + parseInt(actualLevel);
+    console.log("calc: " + calculation);
+    document.getElementById("HP").innerHTML = "HP: " + calculation;
     document.getElementById("health").innerHTML = "Health: " + stats.health;
     document.getElementById("attack").innerHTML = "Attack: " + stats.attack;
     document.getElementById("defence").innerHTML = "Defence: " + stats.defence;
