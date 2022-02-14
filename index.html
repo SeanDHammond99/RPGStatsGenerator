@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <style>
+        .lucida {
+          font-family: "Lucida Console", "Courier New", monospace;
+        }
+    </style>
+</head>
 <body style="background-color:#1e1f21;">
-<h2 style="color:white">Encounter Generator</h2>
+<h2 style="color:white" class="lucida">Encounter Generator</h2>
 
-<h3 style="color:white">Random Pokemon Generator</h3>
+<h3 style="color:white" class="lucida">Random Pokemon Generator</h3>
 <img id = "image" width="300" height="300" src = >
 <br>
 <button id="imagebutton">Random Pokemon</button>
 
 
 
-<h3 style="color:white">Random Stats Generator</h3>
+<h3 style="color:white" class="lucida">Random Stats Generator</h3>
 
-<label for="build" style="color:white">Build to generate:</label>
+<label for="build" style="color:white" class="lucida">Build to generate:</label>
 <select name="build" id="build">
     <option value="ar">All-Rounder</option>
     <option value="fpa">Fast Physical Attacker</option>
@@ -24,7 +30,7 @@
 </select>
 
 
-<label for="level" style="color:white">Level:</label>
+<label for="level" style="color:white" class="lucida">Level:</label>
 <select name="level" id="level">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -40,7 +46,7 @@
 
 <br>
 
-<label for="stage" style="color:white">Additional Points:</label>
+<label for="stage" style="color:white" class="lucida">Additional Points:</label>
 <select name="stage" id="stage">
     <option value="0">0</option>
     <option value="1">1</option>
@@ -50,14 +56,14 @@
     <option value="5">5</option>
 </select>
 
-<p id="HP" style="margin-bottom : 0; color:white">HP: </p>
+<p id="HP" style="margin-bottom : 0; color:white" class="lucida">HP: </p>
 <br>
-<p id="health" style="margin : 0; padding-top:0; color:white">Health: </p>
-<p id="attack" style="margin : 0; padding-top:0; color:white">Attack: </p>
-<p id="defence" style="margin : 0; padding-top:0; color:white">Defence: </p>
-<p id="spattack" style="margin : 0; padding-top:0; color:white">Special Attack: </p>
-<p id="spdefence" style="margin : 0; padding-top:0; color:white">Special Defence: </p>
-<p id="speed" style="margin : 0; padding-top:0; color:white">Speed : </p>
+<p id="health" style="margin : 0; padding-top:0; color:white" class="lucida">Health: </p>
+<p id="attack" style="margin : 0; padding-top:0; color:white" class="lucida">Attack: </p>
+<p id="defence" style="margin : 0; padding-top:0; color:white" class="lucida">Defence: </p>
+<p id="spattack" style="margin : 0; padding-top:0; color:white" class="lucida">Special Attack: </p>
+<p id="spdefence" style="margin : 0; padding-top:0; color:white" class="lucida">Special Defence: </p>
+<p id="speed" style="margin : 0; padding-top:0; color:white" class="lucida">Speed : </p>
 
 <button id="button">Generate</button>
 
