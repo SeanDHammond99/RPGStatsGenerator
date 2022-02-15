@@ -4,7 +4,7 @@
 <style>
 .header {
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 40px;
+    font-size: 60px;
 }
 .subheader {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -21,7 +21,7 @@
 </style>
 </head>
 <body style="background-color:#1e1f21;">
-<h1 style="color:white" class="header">Encounter Generator</h1>
+<h1 style="color:white" class="header">Pokemon RPG Encounter Generator</h1>
 
 <h3 style="color:white" class="subheader">Random Pokemon Generator</h3>
 <img id = "image" width="300" height="300" src = >
@@ -82,5 +82,22 @@
 
 <script type="module" src=statScript.js></script>
 
+<p class = "buttontext" style="margin-bottom : 0; color:white">
+    This is a wild encounter generator for a Pokemon Tabletop RPG I'm developing and playing with some friends.
+    <br>
+    Here's a brief summary of how it works. Level 1 Pokemon start with 15 stat points and gain an additional 2 per turn.
+    <br>
+    To attack, roll 6 sided dice equal to the user's attack. Every dice that rolls OVER the target's defence is
+    <br>
+    a successful hit, and removes 1 HP. Rolling a natural 1 is always a miss
+    <br>
+    and a natural 6 is always a hit, regardless of defence.
+    <br>
+    HP is defined as (Health * 1.5) + Level.
+    <br>
+    A number of factors can increase or decrease the results of a dice roll, allowing rolls to exceed the 8 needed
+    <br>
+    to deal damage to a target with defence of 8.
+</p>
 </body>
 </html>
