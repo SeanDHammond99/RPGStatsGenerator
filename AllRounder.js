@@ -31,42 +31,42 @@ class allRounder {
             var randomInt = Math.floor(Math.random() * 100);
             console.log(randomInt);
             if (randomInt < this.healthRate){
-                if (this.health == 8){
+                if (this.health == 10){
                     i--;
                 } else {
                     this.health++;
                 }
                 console.log("Health Up!")
             } else if (randomInt < this.attackRate){
-                if (this.attack == 8){
+                if (this.attack == 10){
                     i--;
                 } else {
                     this.attack++;
                 }
                 console.log("Attack Up!")
             } else if (randomInt < this.defenceRate){
-                if (this.defence == 8){
+                if (this.defence == 10){
                     i--;
                 } else {
                     this.defence++;
                 }
                 console.log("Defence Up!")
             } else if (randomInt < this.spattackRate){
-                if (this.spattack == 8){
+                if (this.spattack == 10){
                     i--;
                 } else {
                     this.spattack++;
                 }
                 console.log("Sp Atk Up!")
             } else if (randomInt < this.spdefenceRate){
-                if (this.spdefence == 8){
+                if (this.spdefence == 10){
                     i--;
                 } else {
                     this.spdefence++;
                 }
                 console.log("Sp Def Up!")
             } else if (randomInt < this.speedRate){
-                if (this.speed == 8){
+                if (this.speed == 10){
                     i--;
                 } else {
                     this.speed++;
